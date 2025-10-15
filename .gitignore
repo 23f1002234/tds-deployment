@@ -1,0 +1,11 @@
+cd ~/tds.project
+cat > .gitignore << 'EOF'
+__pycache__/
+*.pyc
+.venv/
+.env
+data/tasks.json
+server.log
+*.log
+.DS_Store
+EOF 

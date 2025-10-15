@@ -1,0 +1,11 @@
+{
+  "email": "student@example.com",
+  "secret": "YOUR_MY_SECRET_HERE",
+  "task": "demo-test",
+  "round": 1,
+  "nonce": "n1",
+  "brief": "Hello World page: show <h1>Hello World</h1> and an element with id 'hello'.",
+  "checks": ["document.querySelector('#hello') !== null", "document.title"],
+  "evaluation_url": "https://httpbin.org/post",
+  "attachments": []
+}
